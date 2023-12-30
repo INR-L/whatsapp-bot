@@ -1,0 +1,37 @@
+{
+    "name": "Phoenix-MD",
+    "version":"0.0.1",
+    "description": "A Simple WhatsApp Bot",
+    "logo": "https://i.imgur.com/T78fhJk.jpeg'",
+    "keywords": ["whatsapp,bot,md,multi-device,Phoenix,Phoenix-MD"],
+    "repository": "https://github.com/AbhishekSuresh2/Phoenix-MD",
+    "stack": "container",
+    "env": {
+        "SESSION_ID": {
+            "description": "Enter Your Session ID",
+            "required": true
+        },
+        "HANDLERS": {
+            "description": "Enter Prefix For Commands Enter False To Make No Prefix",
+            "required": true,
+            "value": "."
+        },
+        "SUDO": {
+            "description": "Enter Numbers WIth Country Code Without + Seperate With , To Add More Numbers",
+            "required": false
+            "value": "919074692450"
+        }, 
+        "STICKER_DATA": {
+            "description": "Enter Your Sticker Packname And Author Name",
+            "required": false
+            "value": "🎯𝙿𝚑𝚘𝚎𝚗𝚒𝚡-𝙼𝙳;𝙰𝚋𝚑𝚒𝚜𝚑𝚎𝚔 𝚂𝚞𝚛𝚎𝚜𝚑☘️"
+        },
+        
+        "HEROKU_APP_NAME": {
+            "description": "Enter Your Heroku App Name Same As Above You Entered",
+            "required": true
+        },
+        "HEROKU_API_KEY": {
+            "description": "Enter Your Heroku Account Api Key Get It From https://dashboard.heroku.com/account",
+            "required": true
+        }
