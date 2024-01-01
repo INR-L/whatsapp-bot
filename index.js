@@ -29,7 +29,7 @@ fs.readdirSync("./plugins").forEach((plugin) => {
 });
   const {
     data
-  } = await axios(`https://pastebin.com/raw/${config.SESSION_ID.split('~')[1]}`);
+  } = await axios(`https://pastebin.com/raw/${config.SESSION_ID}`);
   await fs.writeFileSync("./lib/session/creds.json", JSON.stringify(data));
 
   const {
